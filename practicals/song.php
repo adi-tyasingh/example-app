@@ -1,5 +1,5 @@
 <?php
-namespace practicals;
+namespace Practicals;
 // Define the Song class
 class Song {
     // Properties
