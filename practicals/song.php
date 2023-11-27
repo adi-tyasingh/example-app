@@ -49,7 +49,6 @@ class Song {
     public function getTempo() {
         return $this->tempo;
     }
-
     // Setter method for tempo
     public function setTempo($tempo) {
         $this->tempo = $tempo;
