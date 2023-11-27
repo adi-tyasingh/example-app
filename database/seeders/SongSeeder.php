@@ -6,10 +6,10 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Song;
 
-class DatabaseSeeder extends Seeder
+class SongSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      */
     public function run(): void
     {
