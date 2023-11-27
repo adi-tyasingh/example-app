@@ -22,5 +22,15 @@ class SongSeeder extends Seeder
             'artist' => 'A P Dhillon',
             'title' => 'With You',
         ]);
+
+        Song::create([
+            'artist' => 'Led Zepplin',
+            'title' => 'Stairway to Heaven',
+        ]);
+
+        Song::create([
+            'artist' => 'Eagles',
+            'title' => 'Hotel California',
+        ]);
     }
 }

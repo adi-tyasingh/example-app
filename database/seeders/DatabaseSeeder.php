@@ -13,14 +13,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        Song::create([
-            'artist' => 'Eminem',
-            'title' => 'Stan',
-        ]);
-
-        Song::create([
-            'artist' => 'A P Dhillon',
-            'title' => 'With You',
-        ]);
+        
     }
 }
