@@ -31,6 +31,10 @@ Route::get('/veggies/{veggieName}', function ($veggieName) {
     }
 });
 
+Route::get('/playlists/{playlistId}', function ($playlistId) {
+    return view('playlist',[ 'songs' => Song::all(), 'playlistId' => $playlistId]);
+});
+
 Route::get('/songs_static', function () {
     return view('songs_static'); 
   });
