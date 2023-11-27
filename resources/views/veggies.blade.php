@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <table>
+        <tbody>
+           <tr>
+            <td>Baigan</td>
+           </tr>
+           <tr>
+            <td>Bhindi</td>
+           </tr>
+           <tr>
+            <td>Aaloo</td>
+           </tr>
+           <tr>
+            <td>Gobhi</td>
+           </tr>
+        </tbody>
+    </table>
+</body>
+</html>
